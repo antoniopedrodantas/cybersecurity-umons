@@ -1,6 +1,9 @@
 // Dependencies
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaCookieBite, FaServer } from 'react-icons/fa';
+import { MdOutlineWarning } from "react-icons/md";
+
 
 function Home() {
   return (
@@ -15,16 +18,27 @@ function Home() {
         </p>
       </div>
       <div>
-        <ul>
+        <ul style={{listStyle:"none"}}>
           <li>
-            <Link to="/cookie-login">Cookie Based Session</Link>
+            <Link to="/cookie-login" style={{textDecoration: 'none', color: 'grey'}}>
+              <FaCookieBite style={{marginLeft:10, marginRight:20}}/>
+              Cookie Based Session
+            </Link>
           </li>
+          <br/>
           <li>
-            <Link to="/token-login">Token Based Session</Link>
+            <Link to="/token-login" style={{textDecoration: 'none',  color: 'grey'}}> 
+              <FaServer style={{marginRight:20}}/> 
+              Token Based Session
+            </Link>
           </li>
         </ul>
       </div>
-      <a href="http://localhost:8080/malicious-url">link</a>
+      
+      <a style={{textDecoration: 'none',color: 'grey'}} href="http://localhost:8080/malicious-url">
+        <MdOutlineWarning style={{marginRight:20}}/> 
+        link
+      </a>
     </>
   );
 }
