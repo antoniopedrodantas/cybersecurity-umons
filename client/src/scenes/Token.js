@@ -16,8 +16,7 @@ function Token() {
       .then((res) => {
         // sets token on local storage
         localStorage.setItem("auth-token", res.data.token);
-
-        history("/");
+        history("/user-feed");
       })
       .catch((err) => {
         console.log(err);
