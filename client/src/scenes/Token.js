@@ -38,7 +38,7 @@ function Token() {
           <input class="login-form" type="password" placeholder="password" onChange={(e) => setPassword(e.target.value)} />
         </label>
         <br />
-        <button class="login-form-button" onClick={handleSubmit}>Submit</button>
+        <button class="page-button" onClick={handleSubmit}>Submit</button>
       </div>
     </>
   );
