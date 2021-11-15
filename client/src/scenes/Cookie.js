@@ -20,7 +20,7 @@ function Cookie() {
         // sets token on a cookie
         // cookie.setItem("auth-cookie", res.data.token);
         cookies.set(res.data.token);
-        history("/")
+        history("/user-feed")
       })
       .catch((err) => {
         console.log(err);

@@ -28,6 +28,15 @@
   color: #61dafb;
 }
 
+.feed-card{
+  width: 700px;
+  height: fit-content;
+
+  padding: 2rem;
+  border-style: dashed;
+  margin-top: 2rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
