@@ -2,19 +2,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaCookieBite, FaServer } from 'react-icons/fa';
-import Cookies from "universal-cookie";
-
-
 
 function Home() {
-  const cookies = new Cookies();
-  const clearCookies = () => {
-    cookies.remove('12bqi7t3iwhjdblwkEeclkjlsAS13fm.aijsdhuAdmkf345.jksjnfkjUYGKYURJgkc');
-    localStorage.clear();
-    window.location.href = '/';
-    return false;
-  };
-
+  
   return (
     <>
       <div>
@@ -42,7 +32,6 @@ function Home() {
             </Link>
           </li>
         </ul>
-        <button className="page-button" onClick={clearCookies}>Clear Cookie & Token</button>
       </div>
 
     </>

@@ -52,6 +52,11 @@
   margin-top:1rem; 
   border-radius:0.5rem;
 }
+.login-form:focus {
+ border: 0;
+ color: grey;
+}
+
 
 .page-button {
   font-size: large;

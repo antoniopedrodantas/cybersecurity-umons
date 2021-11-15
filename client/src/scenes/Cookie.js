@@ -35,14 +35,14 @@ function Cookie() {
           password.
         </p>
         <label >
-          <input class="login-form" placeholder="username" type="text" onChange={(e) => setUsername(e.target.value)} />
+          <input className="login-form" placeholder="username" type="text" onChange={(e) => setUsername(e.target.value)} />
         </label>
         <br />
         <label >
-          <input class="login-form" type="password" placeholder="password" onChange={(e) => setPassword(e.target.value)} />
+          <input className="login-form" type="password" placeholder="password" onChange={(e) => setPassword(e.target.value)} />
         </label>
         <br />
-        <button class="page-button" onClick={handleSubmit}>Submit</button>
+        <button className="page-button" onClick={handleSubmit}>Submit</button>
       </div>
     </>
   );
