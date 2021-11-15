@@ -25,25 +25,20 @@ function Token() {
   return (
     <>
       <div>
-        <FaServer style={{padding:5, height:50, width:50}}/>
+        <FaServer style={{ padding: 5, height: 50, width: 50 }} />
         <p>
           Welcome to Token Based Sessions, please input your username and
           password.
         </p>
-        <label>
-          <input  placeholder = "username" type="text" onChange={(e) => setUsername(e.target.value)} 
-            style={{ padding: 12  , marginTop:5,borderRadius:5}}/>
-        </label>
-        <br/>
         <label >
-          <input
-            type="password" placeholder="password"
-            onChange={(e) => setPassword(e.target.value)}
-            style={{ padding: 12  , marginTop:15, borderRadius:5}}
-          />
+          <input class="login-form" placeholder="username" type="text" onChange={(e) => setUsername(e.target.value)} />
         </label>
-        <br/>
-        <button  style={{ padding: 12  , marginTop:15, borderRadius:10}} onClick={handleSubmit}>Submit</button>
+        <br />
+        <label >
+          <input class="login-form" type="password" placeholder="password" onChange={(e) => setPassword(e.target.value)} />
+        </label>
+        <br />
+        <button class="login-form-button" onClick={handleSubmit}>Submit</button>
       </div>
     </>
   );

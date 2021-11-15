@@ -34,11 +34,6 @@ function Home() {
           </li>
         </ul>
       </div>
-      
-      <a style={{textDecoration: 'none',color: 'grey'}} href="http://localhost:8080/malicious-url">
-        <MdOutlineWarning style={{marginRight:20}}/> 
-        link
-      </a>
     </>
   );
 }

@@ -12,7 +12,7 @@ function Feed() {
                 <div class="container">
                     <h4><b>Maria</b></h4>
                     <h6>13:18 14/11/2021</h6>
-                    <a>Yesterday was an amazing day. I went to the beach and was able to surf with my friends</a>
+                    <p>Yesterday was an amazing day. I went to the beach and was able to surf with my friends</p>
                 </div>
             </div>
             <div class="feed-card">
