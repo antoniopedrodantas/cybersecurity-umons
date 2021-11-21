@@ -19,8 +19,8 @@ function Cookie() {
       .then((res) => {
         // sets token on a cookie
         // cookie.setItem("auth-cookie", res.data.token);
-        cookies.set(res.data.token);
-        history("/user-feed")
+        cookies.set("auth-cookie", res.data.token);
+        history("/user-feed");
       })
       .catch((err) => {
         console.log(err);
