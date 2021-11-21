@@ -17,17 +17,17 @@ function Home() {
         </p>
       </div>
       <div >
-        <ul style={{ listStyle: "none" }}>
+        <ul>
           <li>
             <Link className="homepage-link" to="/cookie-login">
-              <FaCookieBite style={{ marginLeft: -30, marginRight: 20 }} />
+              <FaCookieBite className="home-cookie-icon"/>
               Cookie Based Session
             </Link>
           </li>
           <br />
           <li>
             <Link className="homepage-link" to="/token-login">
-              <FaServer style={{ marginLeft:-40, marginRight: 20 }} />
+              <FaServer className="home-server-icon"/>
               Token Based Session
             </Link>
           </li>

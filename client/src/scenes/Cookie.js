@@ -29,7 +29,7 @@ function Cookie() {
   return (
     <>
       <div>
-        <FaCookieBite style={{ padding: 5, height: 50, width: 50 }} />
+        <FaCookieBite className="session-page-icon"/>
         <p>
           Welcome to Cookie Based Sessions, please input your username and
           password.

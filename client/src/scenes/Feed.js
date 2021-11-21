@@ -40,7 +40,7 @@ function Feed() {
                     </a>
                 </div>
             </div>
-            <div style={{ marginTop:50, marginBottom:80}}>
+            <div className="logout-div">
                 <button className="page-button" onClick={clearCookies}>Logout</button>
             </div>
         </>

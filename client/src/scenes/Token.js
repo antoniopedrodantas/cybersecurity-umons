@@ -25,7 +25,7 @@ function Token() {
   return (
     <>
       <div>
-        <FaServer style={{ padding: 5, height: 50, width: 50 }} />
+        <FaServer className="session-page-icon"/>
         <p>
           Welcome to Token Based Sessions, please input your username and
           password.
