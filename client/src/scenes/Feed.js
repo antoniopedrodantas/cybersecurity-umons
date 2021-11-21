@@ -22,9 +22,7 @@ function Feed() {
   }, []);
 
   const clearCookies = () => {
-    cookies.remove(
-      "auth-cookie"
-    );
+    cookies.remove("auth-cookie");
     localStorage.clear();
     window.location.href = "/";
     return false;

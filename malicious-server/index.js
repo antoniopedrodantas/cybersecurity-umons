@@ -14,5 +14,6 @@ app.use(cookieParser());
 app.use("/", router);
 
 app.listen(port, () => {
+  console.log("I'm a malicious entity! 😈")
   console.log(`Listening @ http://localhost:${port}`);
 });

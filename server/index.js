@@ -12,5 +12,6 @@ app.use(cors());
 app.use("/", router);
 
 app.listen(port, () => {
+  console.log("I'm the app's server 🖥️");
   console.log(`Listening @ http://localhost:${port}`);
 });
