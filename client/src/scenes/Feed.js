@@ -61,10 +61,7 @@ function Feed() {
           </h4>
           <h6>07:47 14/11/2021</h6>
           <p>Hey guys, checkout this new app that I found!! </p>
-          <a
-            style={{ textDecoration: "none", color: "orange" }}
-            href="http://localhost:8080/malicious-url"
-          >
+          <a className="malicious-link" href="http://localhost:8080/malicious-url">
             <MdOutlineWarning style={{ marginRight: 20 }} />
             Link to the new app.
           </a>
